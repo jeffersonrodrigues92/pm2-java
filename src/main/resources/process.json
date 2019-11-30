@@ -6,10 +6,7 @@
       "script":"/usr/bin/java",
       "args":[
         "-jar",
-        "/home/jefferson/IdeaProjects/pm2/target/pm2-1.0-SNAPSHOT.jar"
-      ],
-      "watch":[
-        "/home/jefferson/IdeaProjects/pm2/target/pm2-1.0-SNAPSHOT.jar"
+        "/home/jefferson/workspace/pm2-java/target/pm2-1.0-SNAPSHOT.jar"
       ],
       "log_date_format":"YYYY-MM-DD HH:mm:ss Z",
       "exec_mode":"fork",
@@ -18,4 +15,3 @@
     }
   ]
 }
-
