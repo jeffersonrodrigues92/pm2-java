@@ -1,0 +1,21 @@
+{
+  "apps":[
+    {
+      "name":"pm2-java",
+      "cwd":".",
+      "script":"/usr/bin/java",
+      "args":[
+        "-jar",
+        "/home/jefferson/IdeaProjects/pm2/target/pm2-1.0-SNAPSHOT.jar"
+      ],
+      "watch":[
+        "/home/jefferson/IdeaProjects/pm2/target/pm2-1.0-SNAPSHOT.jar"
+      ],
+      "log_date_format":"YYYY-MM-DD HH:mm:ss Z",
+      "exec_mode":"fork",
+      "exec_interpreter" : "",
+      "max_memory_restart" : "100M"
+    }
+  ]
+}
+
